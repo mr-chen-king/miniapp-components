@@ -20,7 +20,7 @@
 
                     bindinput="_input"
 
-                    confirm-hold="{{true}}"
+                    confirm-hold="{{inputHold}}"
 
                     value="{{inputsValue[index]?inputsValue[index]:inputDefValue[index]}}"
 

@@ -24,6 +24,12 @@ Component({
         showValue: {
             type: Boolean,
             value: false
+        },
+
+        // 输入完成后是否收起数字输入面板
+        inputHold: {
+            type: Boolean,
+            value: false
         }
 
     },
