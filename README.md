@@ -1,7 +1,7 @@
 # :heart:这是个自用的微信小程序组件库:heart:
 
 ### :one:  数字格子输入框组件  :one:
-> 用法参照示例面add
+> 用法参照示例页面add
 ~~~html
     <indep-password-box id="passwordBox"
             inputLength="{{inputLenth}}"
