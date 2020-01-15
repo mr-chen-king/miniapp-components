@@ -2,3 +2,13 @@
 
 ### :one:  数字格子输入框组件  :one:
 > 用法参照示例面add
+~~~html
+    <indep-password-box id="passwordBox"
+            inputLength="{{inputLenth}}"
+            inputWidth="{{inputWidth}}"
+            inputHeight="{{inputHeight}}"
+            inputDefValue="{{scanValue}}"
+            showValue="{{true}}"
+            bind:complete="setupPasswordComplete"
+    ></indep-password-box>
+~~~
