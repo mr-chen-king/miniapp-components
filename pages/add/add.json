@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "充电",
+  "usingComponents": {
+    "indep-password-box":"/components/split-box-input/box-input"
+  }
+}

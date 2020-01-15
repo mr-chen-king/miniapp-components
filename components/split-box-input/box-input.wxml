@@ -1,0 +1,36 @@
+<view class="indep-password-box">
+
+    <view class="indep-password-box__wrapper">
+
+        <block wx:for="{{inputLength}}" wx:key="*this">
+
+            <!-- input模式 -->
+
+            <input class="indep-password-box__item {{inputsClass[index]}}"
+
+                    type="number"
+
+                    data-index="{{index}}"
+
+                    catchtap="_focusInput"
+
+                    focus="{{inputsFocus[index]}}"
+
+                    password="{{!showValue}}"
+
+                    bindinput="_input"
+
+                    confirm-hold="{{true}}"
+
+                    value="{{inputsValue[index]?inputsValue[index]:inputDefValue[index]}}"
+
+                    style="width: {{inputWidth}}; height: {{inputHeight}};"
+
+            ></input>
+
+
+        </block>
+
+    </view>
+
+</view>

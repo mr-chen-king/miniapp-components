@@ -1,0 +1,89 @@
+/*
+
+   components/split-box-input/box-input.wxss */
+
+   .indep-password-box {
+
+       display: flex;
+
+       justify-content: center;
+
+       align-items: center;
+       background-color: white;
+
+   }
+
+   .indep-password-box__wrapper {
+
+       display: flex;
+
+       flex-direction: row;
+
+   }
+
+/*
+
+   子项 */
+
+  .indep-password-box__wrapper .indep-password-box__item {
+
+       border: 1px dashed #19be6b;
+
+       box-sizing: border-box;
+
+       font-size: 12px;
+
+       text-align: center;
+
+   }
+
+   .border-shadow {
+       border-color: rgba(82, 168, 236, 0.8);
+       outline: 0;
+       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+   }
+
+
+/*
+
+   边框重叠 */
+
+     .indep-password-box__wrapper .indep-password-box__item
+
++ .indep-password-box__item {
+
+ margin-left: -1rpx;
+
+}
+
+/* 小圆点 */
+
+.indep-password-box .indep-password-box__wrapper .indep-password-box__item-hidden {
+
+ width: 14rpx;
+
+ height: 14rpx;
+
+ border-radius: 50%;
+
+ background: #999;
+
+}
+
+/* 对应值 */
+
+.indep-password-box .indep-password-box__wrapper .indep-password-box__item-show {
+
+ color: #087b46;
+
+}
+
+/* 隐藏的输入框 */
+
+.indep-password-box__wrapper .indep-password-box__input-hidden {
+
+ width: 0;
+
+height: 0;
+
+   }

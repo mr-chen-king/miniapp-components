@@ -1,0 +1,146 @@
+/*
+
+pages/add/add.wxss */
+page {
+       background: #eee;
+       color: #000;
+       font-size: 30rpx;
+       width: 100%;
+       height: 100%;
+       overflow-x: hidden;
+       overflow-y: auto;
+   }
+
+   .verCodeView {
+       padding: 164rpx 40rpx 32rpx 40rpx;
+   }
+
+   .verCodeSendView {
+       padding: 0 40rpx 74rpx 40rpx;
+   }
+
+   .sendTime {
+       text-align: center;
+       padding-top: 54rpx;
+   }
+
+   .verCodeInputView {
+       display:
+
+-webkit-flex;
+	padding: 0 40rpx 0 40rpx;
+}
+.verCodeInput{
+  margin: 0 58rpx 0 0;
+	height: 150rpx;
+  width: 124rpx;
+	background-color: #fff;
+	border:#DFDFDF solid 1rpx;
+	font-size: 60rpx;
+	text-align: center;
+  justify-content: space-between;
+}
+
+
+/* 新验证码输入框样式 */
+page .code .input-content-wrap .input-code-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center1;
+  height: 150rpx;
+}
+page .code .input-content-wrap .input-code-wrap .code_dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 124rpx;
+  height: 150rpx;
+  border: #dfdfdf solid 1rpx;
+  border-left: none 0;
+  font-size: 60rpx;
+}
+page .code .input-content-wrap .input-code-wrap .code_dot:nth-child(1) {
+  border-left: 2rpx solid #ddd;
+}
+page .code .input-content-wrap .input-code-wrap .code_dot i {
+  /* background: #000; */
+  border-radius: 50%;
+  width: 20rpx;
+  height: 20rpx;
+  display: flex;
+  align-items: center;
+}
+page .code .input-content {
+  position: absolute;
+  opacity: 0;
+  left: -100%;
+  top: 600rpx;
+  background: #f56;
+  z-index: -999;
+  text-align: center;
+}
+page .code .input-content.active {
+  z-index: -99;
+}
+.input {
+  height: 150rpx;
+  width: 124rpx;
+	flex: 1;
+  background-color: #fff;
+  color: #262626;
+  font-size: 64rpx;
+	margin: 0 29rpx 0 29rpx;
+	border: 1rpx #4287ff solid;
+	position: relative;
+}
+.input_none{
+  height: 150rpx;
+  width: 124rpx;
+	flex: 1;
+  background-color: #fff;
+  color: #262626;
+  font-size: 64rpx;
+	margin: 0 29rpx 0 29rpx;
+	border: 1rpx #dfdfdf solid;
+	position: relative;
+}
+.input text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.input_none text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+   }
+
+.selectItem {
+      background-color: white;
+      margin-top: 20rpx;
+      height: 240rpx;
+}
+.select-container{
+    width: 223rpx;
+    height: 60rpx;
+    margin: 10rpx 0 0 20rpx;
+    border-radius: 3px;
+    border: 1px solid #19be6b;
+    font-size: 12px;
+   }

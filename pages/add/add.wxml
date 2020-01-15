@@ -1,0 +1,11 @@
+
+<view class="container">
+    <indep-password-box id="passwordBox"
+            inputLength="{{inputLenth}}"
+            inputWidth="{{inputWidth}}"
+            inputHeight="{{inputHeight}}"
+            inputDefValue="{{scanValue}}"
+            showValue="{{true}}"
+            bind:complete="setupPasswordComplete"
+    ></indep-password-box>
+</view>
